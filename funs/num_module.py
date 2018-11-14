@@ -1,4 +1,3 @@
-
 def is_even(n):
     print("Checking ", n)
     return n % 2 == 0
@@ -24,3 +23,9 @@ def is_prime(n):
 def is_odd(n):
     print("Checking ", n)
     return n % 2 != 0
+
+
+if __name__ == '__main__':
+    print("Executing module")
+else:
+    print("Importing modue -> ", __name__)
