@@ -4,11 +4,10 @@ try:
 except ZeroDivisionError:
     print("Sorry! Number cannot be 0")
 except Exception  as ex:
-     print("Error : ", ex)
+    print("Error : ", ex)
 else:
-    print("Result = ",result)
+    print("Result = ", result)
 finally:
     print("** Completed **")
-
 
 print("*** The  End ***")
